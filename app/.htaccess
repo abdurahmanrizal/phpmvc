@@ -1,0 +1,2 @@
+#digunakan untuk tidak memberikan access ke user apabila tidak ada file Indexes
+Options -Indexes
