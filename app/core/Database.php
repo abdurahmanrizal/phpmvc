@@ -78,4 +78,9 @@ class Database {
         // dalam PDO apabila kita menginginkan data hanya salah satu yang ditampilkan menggunakan function fetch
         return $this->stmt->fetch(PDO::FETCH_ASSOC);
     }
+
+    public function rowCount()
+    {
+        return $this->stmt->rowCount();
+    }
 }
